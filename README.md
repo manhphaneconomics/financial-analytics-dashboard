@@ -20,15 +20,7 @@ This dashboard was built to answer exactly those questions, structured across **
 ---
 
 ## 🗂️ Data Model
-
-Star schema with a central Fact table (580 transactions) and supporting dimensions:
-
-- **Fact_Transactions** — Revenue, COGS, Opex, Interest & Tax at transaction grain
-- **Dim_Date** — Month/period hierarchy for time intelligence (MoM calculations)
-- **Dim_BusinessLine** — Sportswear / Sports Equipment / Nutrition & Food Supplements
-- **Dim_CostCategory** — COGS sub-categories (Labor, Materials, Sales, Shipping, Packaging) and Opex sub-categories (Payroll, Equipment, Marketing, Rent, R&D, Other)
-
-Key measures: Revenue, COGS, Opex, Interest & Tax, Net Profit, Gross Profit (GP) Margin, EBIT Margin, Net Profit (NP) Margin, and their Month-over-Month (MoM) deltas.
+![Model](assets/Model.png)
 
 ---
 
@@ -104,16 +96,3 @@ While January has the highest absolute revenue ($1.95M) and net profit ($694.5K)
 - **Power BI** — data modeling (star schema), DAX measures, and dashboard design
 - **DAX** — Month-over-Month calculations, Gross/EBIT/Net Profit Margin measures, Pareto (cumulative %) logic for COGS/Opex breakdowns
 
-## 📁 Repository Contents
-```
-financial-analytics-dashboard/
-├── README.md
-└── assets/
-    ├── 01-overview-dashboard.png
-    ├── 02-business-line-dashboard.png
-    └── 03-cost-breakdown-dashboard.png
-```
-
----
-
-*This project was built as a portfolio piece to demonstrate P&L analysis, cost-structure decomposition, and business-line profitability analysis for a Data Analyst role.*
