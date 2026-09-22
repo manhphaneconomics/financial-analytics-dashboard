@@ -1,4 +1,4 @@
-# 📊 Financial Analytics Dashboard — Multi-Line Sports & Wellness Co. (FY2023)
+# 📊 Financial Analytics Dashboard
 
 An interactive Power BI dashboard analyzing the full-year P&L of a multi-line sports & wellness company across three business units: **Sportswear**, **Sports Equipment**, and **Nutrition & Food Supplements**.
 
